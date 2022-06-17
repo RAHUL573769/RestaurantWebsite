@@ -9,7 +9,7 @@ const Info = () => {
             Some Top Restaurants for Dining in or Take Away
           </p>
           <div>
-            <p class="py-6 text-2xl font-bold">
+            <p class="py-6  font-bold">
               We provide Best Dining in this City.We provide delicious
               foods.Foods like Hamburger,FrenchFries are sold at a reasonable
               price
