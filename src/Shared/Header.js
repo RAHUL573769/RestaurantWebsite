@@ -1,22 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   const menuItems = (
     <>
       <li>
-        <a>Menu 1</a>
+        <Link to="/menu1">Menu 1</Link>
+      </li>
+      {/* <li>
+        <Link>Menu 2</Link>
       </li>
       <li>
-        <a>Menu 2</a>
-      </li>
-      <li>
-        <a>Menu 3</a>
+        <Link>Menu 3</Link>
       </li>
 
       <li>
-        <a>Menu 4</a>
-      </li>
+        <Link>Menu 4</Link>
+      </li> */}
     </>
   );
   return (
