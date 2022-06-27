@@ -14,7 +14,7 @@ const Menu1 = () => {
 
   console.log(menu1?.meals.length);
   return (
-    <div class="grid   grid-cols-3">
+    <div class="grid  md:grid-cols-2 lg:grid-cols-3">
       {menu1?.meals?.map((meal) => (
         <SingleMenu1 meal={meal}></SingleMenu1>
       ))}

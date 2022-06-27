@@ -8,6 +8,15 @@ const Header = () => {
       <li>
         <Link to="/menu1">Menu 1</Link>
       </li>
+      <li>
+        <Link to="/menu2">Menu 2</Link>
+      </li>
+      <li>
+        <Link to="/menu3">Menu 3</Link>
+      </li>
+      <li>
+        <Link to="/menu4">Menu 4</Link>
+      </li>
       {/* <li>
         <Link>Menu 2</Link>
       </li>
