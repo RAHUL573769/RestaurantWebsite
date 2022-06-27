@@ -1,9 +1,22 @@
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
+import SingleMenu2 from "./SingleMenu2";
 
 const Menu2 = () => {
+  const [menu2, setMenu2] = useState();
+
+  useEffect(() => {
+    fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
+      .then((res) => res.json())
+      .then((data) => setMenu2(data));
+  }, []);
+
   return (
-    <div>
-      <h1>Menu 2</h1>
+    <div class="grid  md:grid-cols-2 lg:grid-cols-3 my-7">
+      {menu2?.categories?.map((m) => (
+        <SingleMenu2 m={m}></SingleMenu2>
+      ))}
     </div>
   );
 };

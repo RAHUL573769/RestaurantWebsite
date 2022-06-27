@@ -1,7 +1,6 @@
 import React from "react";
 
 const SingleMenu1 = ({ meal }) => {
-  console.log(meal);
   return (
     <div>
       <div class="card w-96 bg-base-100 shadow-xl">
