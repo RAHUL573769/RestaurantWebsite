@@ -6,13 +6,15 @@ import Single from "./Single";
 
 const Menu4 = () => {
   const [menu4, setMenu4] = useState();
+
+  //fetching api using useEffeCT
   useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian")
       .then((res) => res.json())
       .then((data) => setMenu4(data));
   });
+  //fetching api using useEffeCT
 
-  console.log(menu4?.meals);
   return (
     <div class="grid  md:grid-cols-2 lg:grid-cols-3 my-7">
       {menu4?.meals?.map((m) => (
