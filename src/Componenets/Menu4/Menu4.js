@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import SingleMenu4 from "./SingleMenu4";
+
+import Single from "./Single";
 
 const Menu4 = () => {
   const [menu4, setMenu4] = useState();
@@ -13,9 +14,9 @@ const Menu4 = () => {
 
   console.log(menu4?.meals);
   return (
-    <div>
+    <div class="grid  md:grid-cols-2 lg:grid-cols-3 my-7">
       {menu4?.meals?.map((m) => (
-        <SingleMenu4></SingleMenu4>
+        <Single m={m}></Single>
       ))}
     </div>
   );

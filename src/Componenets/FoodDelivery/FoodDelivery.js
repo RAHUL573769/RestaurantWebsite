@@ -5,11 +5,12 @@ const FoodDelivery = () => {
   return (
     <div>
       <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content text-center">
-          <div class="max-w-md">
-            <img src={scotter} />
-            <h1 class="text-5xl  my-3">Free Home Delivery At Your Footsteps</h1>
-            <p class="py-6">We provide 24/7 food delivery at your Doorsteps</p>
+        <div class="hero-content flex-col lg:flex-row">
+          <img src={scotter} class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Food Delivery!</h1>
+            <p class="py-6">We are open 24/7</p>
+            <button class="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

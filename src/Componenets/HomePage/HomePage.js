@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Shared/Footer";
 import TableBooking from "../AdvancedTableBooking/TableBooking";
 import FoodDelivery from "../FoodDelivery/FoodDelivery";
 import Banner from "./Banner/Banner";
@@ -19,6 +20,8 @@ const HomePage = () => {
       <TableBooking></TableBooking>
       <FreeSection></FreeSection>
       <FoodDelivery></FoodDelivery>
+
+      <Footer></Footer>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Menu3 = () => {
       .then((res) => res.json())
       .then((data) => setMenu3(data));
   });
-  console.log(menu3?.meals);
+
   return (
     <div class="grid  md:grid-cols-2 lg:grid-cols-3 my-7">
       {menu3?.meals?.map((m) => (
