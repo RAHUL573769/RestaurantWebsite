@@ -14,7 +14,7 @@ const Menu2 = () => {
   }, []);
   //fetching api using useEffeCT
   return (
-    <div class="grid  md:grid-cols-2 lg:grid-cols-3 my-7">
+    <div class="grid  md:grid-cols-2 lg:grid-cols-3 my-7 mx-7">
       {menu2?.categories?.map((m) => (
         <SingleMenu2 m={m}></SingleMenu2>
       ))}

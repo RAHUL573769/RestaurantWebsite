@@ -64,7 +64,12 @@ const Header = () => {
             {menuItems}
           </ul>
         </div> */}
-        <h1 class=" font-bold mx-14 text-5xl text-[#FE043C]	">expice</h1>
+        <h1 class=" font-bold mx-14 text-5xl text-[#FE043C]	">
+          <a href="https://www.tripadvisor.com/Restaurants-g319837-Chittagong_City_Chittagong_Division.html">
+            {" "}
+            expice
+          </a>
+        </h1>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuItems}</ul>
