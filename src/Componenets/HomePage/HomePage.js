@@ -22,8 +22,6 @@ const HomePage = () => {
       <TableBooking></TableBooking>
       <FreeSection></FreeSection>
       <FoodDelivery></FoodDelivery>
-
-      <Footer></Footer>
     </div>
   );
 };
